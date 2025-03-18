@@ -39,7 +39,7 @@ jobs:
       - name: Deploy for Github 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
-          branch: prod
-          folder: docs/.vitepress/dist
+          branch: main
+          folder: .vitepress/dist
           single-commit: true
           clean: true
